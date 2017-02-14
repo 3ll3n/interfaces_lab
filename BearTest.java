@@ -50,11 +50,11 @@ public class BearTest {
 
   @Test
   public void canThrowUp() {
-    bear.eat(salmon);
+    bear.eat(chicken);
     Edible food = bear.throwUp();
     assertNotNull(food);
-    Salmon original = (Salmon)food;
-    assertEquals("swimming", original.swim());
+    Chicken original = (Chicken)food;
+    assertEquals("cluck cluck", original.canCluck());
   }
 
   @Test
