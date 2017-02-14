@@ -82,4 +82,13 @@ public class BearTest {
   public void nutritionValueHuman(){
     assertEquals(10, human.nutritionValue());
   }
+
+  @Test
+  public void totalNutritionBear(){
+    bear.eat(human);
+    bear.eat(chicken);
+    bear.eat(salmon);
+    assertEquals(510, bear.totalNutrition());
+  }
+
 }
