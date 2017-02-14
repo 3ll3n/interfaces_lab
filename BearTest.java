@@ -67,4 +67,19 @@ public class BearTest {
   public void chickenCanCluck(){
     assertEquals("cluck cluck", chicken.canCluck());
   }
+
+  @Test
+  public void nutritionValueChicken(){
+    assertEquals(200, chicken.nutritionValue());
+  }
+
+  @Test
+  public void nutritionValueSalmon(){
+    assertEquals(300, salmon.nutritionValue());
+  }
+
+  @Test
+  public void nutritionValueHuman(){
+    assertEquals(10, human.nutritionValue());
+  }
 }
