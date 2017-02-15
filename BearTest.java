@@ -49,7 +49,7 @@ public class BearTest {
   }
 
   @Test
-  public void canThrowUp() {
+  public void canThrowUpChicken() {
     bear.eat(chicken);
     Edible food = bear.throwUp();
     assertNotNull(food);

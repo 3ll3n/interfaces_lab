@@ -1,5 +1,5 @@
 public interface Edible {
 
-  int nutritionValue();
+  public int nutritionValue();
   
 }
